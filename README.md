@@ -4,19 +4,18 @@
 - Q2 -> Which contains solution of question 2
 - Q3 -> Which contains solution of question 3
 
-## This Branch is for solution 1
-
-# Coding Challenge 1: Summing Up to N in Three Ways
+# Coding Challenge 2: Simple HTTP Server in Node.js
 
 ## Objective
-Demonstrate your problem-solving and coding skills by writing three distinct functions in any programming language of your choice. Each function should sum up to the number n in a unique way.
+Create a basic HTTP server using Node.js that handles web requests.
 
 ## Tasks
-1. Simple Summation Function: Write a function that takes an integer n and returns the sum of all integers from 1 to n using a loop.
-
-2. Recursive Summation Function: Write a recursive function to perform the same task: summing all integers from 1 to n.
-
-3. Mathematical Formula Implementation: Implement a function that uses the formula for the sum of an arithmetic series to find the sum of all integers from 1 to n.
+1. Server Setup: Set up an HTTP server on a specified port.
+2. Routing: Implement at least two routes: / (root) and /about.
+  - Root: Display a welcome message.
+  - About: Display project or creator info.
+3. Error Handling: Handle non-existing routes with a 404 status code.
+4. Logging: Log the request method and URL for each request.
 
 ---
 ---
@@ -24,7 +23,7 @@ Demonstrate your problem-solving and coding skills by writing three distinct fun
 
 # How to run the code
 
-The code is in simple Javascript file. You can run it by the following command
+The code is in simple Node server file. You can run it by the following command
 
-` $ node Q1.js`
+` $ node Q2.js`
 
