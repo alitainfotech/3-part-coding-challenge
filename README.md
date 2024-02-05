@@ -4,27 +4,78 @@
 - Q2 -> Which contains solution of question 2
 - Q3 -> Which contains solution of question 3
 
-## This Branch is for solution 1
+## This Branch is for solution 3
 
-# Coding Challenge 1: Summing Up to N in Three Ways
+# Coding Challenge 3: React TypeScript Login Component
 
 ## Objective
-Demonstrate your problem-solving and coding skills by writing three distinct functions in any programming language of your choice. Each function should sum up to the number n in a unique way.
+Your task is to create a login component using React, TypeScript, and Tailwind CSS. This component should include fields for email and password, as well as a submit button.
 
-## Tasks
-1. Simple Summation Function: Write a function that takes an integer n and returns the sum of all integers from 1 to n using a loop.
+## Requirements
+- React & TypeScript: Build the component using React and TypeScript.
+- Form Validation: Implement basic form validation:
+  - Validate email format.
+  - Password should require at least 8 characters.
+  - Display relevant error messages for invalid input.
+- Tailwind CSS: Style your component with Tailwind CSS. Ensure it is responsive and visually appealing on both desktop and mobile screens.
+- Submit Functionality: Show a success message upon valid submission; otherwise, display an error message.
+- Code Quality: Ensure your code is clean, well-commented, and organized.
 
-2. Recursive Summation Function: Write a recursive function to perform the same task: summing all integers from 1 to n.
+---
 
-3. Mathematical Formula Implementation: Implement a function that uses the formula for the sum of an arithmetic series to find the sum of all integers from 1 to n.
+# Login Credentails
+> Email: admin@admin.com
+
+> Password: Password123#
 
 ---
 ---
 ---
 
-# How to run the code
+# Getting Started with Create React App
 
-The code is in simple Javascript file. You can run it by the following command
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-` $ node Q1.js`
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
 
